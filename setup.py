@@ -55,7 +55,7 @@ def readme():
         return file.read()
 
 
-setup(name='mc_cnn',
+setup(name='mccnn',
       use_scm_version=True,
       description='MC-CNN is a neural network for learning a similarity measure on image patches',
       long_description=readme(),
